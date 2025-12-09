@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-The **Student Performance Analytics Dashboard** is an end-to-end analytics project built using **Python, Streamlit, Pandas, Plotly & Power BI**.  
+The **Student Performance Analytics Dashboard** is an end-to-end analytics project built using **Python, Streamlit, Pandas, Plotly**.  
 
 This dashboard enables **educators, institutions, and researchers** to understand how:
 
@@ -71,7 +71,6 @@ This project moves beyond simple visuals — it delivers **actionable insights**
 | Pandas | Cleaning + Feature Engineering |
 | Streamlit | Web-based Interactive Dashboard |
 | Plotly | Visual Analytics |
-| Power BI | Additional BI Dashboard |
 | GitHub | Repository & Version Control |
 
 ---
@@ -96,12 +95,6 @@ cd streamlit_app
 streamlit run app.py
 
 ```
----
-
-## 🌐 Live Web App (Streamlit Cloud)
-
-🚀 Live Dashboard: 👉 https://student-performance-analytics-dashboard.streamlit.app/
-
 ---
 
 ## 📊 Insights Discovered
