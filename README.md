@@ -80,20 +80,24 @@ This project moves beyond simple visuals — it delivers **actionable insights**
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/Student-Performance-Analytics-Dashboard.git
----
+git clone https://github.com/bm-bharath/Student-Performance-Analytics-Dashboard.git
+```
+```bash
 # Navigate into project
 cd Student-Performance-Analytics-Dashboard
----
+```
+```bash
 # Install dependencies
 pip install -r requirements.txt
----
+```
+```bash
 # Run Streamlit
 cd streamlit_app
 streamlit run app.py
 
 ```
 ---
+
 ## 🌐 Live Web App (Streamlit Cloud)
 
 🚀 Live Dashboard: 👉 https://YOUR_STREAMLIT_LINK_HERE
