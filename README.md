@@ -21,7 +21,7 @@ This dashboard enables **educators, institutions, and researchers** to understan
 - Learning Style preferences
 
 <p align="center">
-  <img src="assets/overview.png" width="100%">
+  <img src="assets/overall.png" width="100%">
 </p>
 
 ➡ **Influence Exam Performance & Final Grades**
