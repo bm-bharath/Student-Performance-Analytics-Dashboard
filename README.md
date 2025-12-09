@@ -1,25 +1,28 @@
 # 🎓 Student Performance Analytics Dashboard
-### **Analyze Study Habits, Learning Styles, Attendance & Stress Factors to Understand Academic Outcomes**
+### Analyze Study Habits, Learning Styles, Attendance & Stress Factors to Understand Academic Outcomes
 
-![banner](assets/banner.png)
+<p align="center">
+  <img src="assets/banner.png" width="100%">
+</p>
 
 ---
 
 ## 📌 Project Overview
 
 The **Student Performance Analytics Dashboard** is an end-to-end analytics project built using **Python, Streamlit, Pandas, Plotly & Power BI**.  
+
 This dashboard enables **educators, institutions, and researchers** to understand how:
 
 - Study hours  
 - Attendance  
-- Online engagement  
-- Motivation  
-- Stress  
-- Learning Style  
+- Online learning engagement  
+- Motivation & assignment discipline  
+- Stress levels  
+- Learning Style preferences  
 
 ➡ **Influence Exam Performance & Final Grades**
 
-This project moves beyond simple charts — it provides **actionable insights** based on real educational analytics principles.
+This project moves beyond simple visuals — it delivers **actionable insights** aligned with real educational analytics.
 
 ---
 
@@ -27,22 +30,22 @@ This project moves beyond simple charts — it provides **actionable insights** 
 
 | Feature | Description |
 |--------|-------------|
-| Clean & preprocess large student dataset | Handles missing values, converts types, creates custom analytical buckets |
-| Beautiful Minimal UI (Apple-style) | Calm white interface with clear visual storytelling |
-| Interactive Streamlit Dashboard | Filters by gender, learning style & attendance %
-| Insights on Study Habits | Study hours vs performance visualization |
-| Attendance Performance Threshold | Identify the “danger zone” for low attendance |
-| Learning Style Impact | Visual, Auditory, Kinesthetic & Reading/Writing insights |
-| Stress vs Motivation relationships | Psychology-based analytics |
-| Power BI Dashboard Included | Business reporting version |
+| Dataset preprocessing & feature engineering | Automatic cleaning, type handling & analytical buckets |
+| Apple-style minimal UI | Clean white interface with clear storytelling visuals |
+| Interactive Streamlit dashboard | Filter by gender, attendance range & learning style |
+| Study Habit Insights | Study hours impact performance with distribution charts |
+| Attendance Threshold Discovery | Identifies cutoff zones where performance drops |
+| Learning Style Intelligence | Visual, Auditory, Kinesthetic & Reading/Writing comparison |
+| Stress & Motivation Analytics | Behavioral patterns & psychology-based insights |
+| Power BI Report Included | Business-facing BI dashboard |
 
 ---
 
-## 🧠 Dataset
+## 🧠 Dataset Information
 
-**Source:** Kaggle — Student Performance & Learning Style  
-**Total Records:** 14,003 Students  
-**Attributes:** 16 Columns (Habits + Demographics + Performance)
+**Source:** Kaggle — *Student Performance and Learning Style*  
+**Total Records:** `14,003` Students  
+**Total Columns:** `16` Attributes  
 
 | Category | Columns |
 |----------|--------|
@@ -58,40 +61,46 @@ This project moves beyond simple charts — it provides **actionable insights** 
 
 ## 🛠 Tech Stack
 
-| Tool | Use |
-|------|-----|
+| Technology | Purpose |
+|-----------|---------|
 | Python | ETL + Data Processing |
-| Pandas | Cleaning & Feature Engineering |
-| Streamlit | Interactive Web Dashboard |
-| Plotly | Visualizations |
-| Power BI | Business Dashboard |
-| GitHub | Version Control |
-| CSV | Data Source |
+| Pandas | Cleaning + Feature Engineering |
+| Streamlit | Web-based Interactive Dashboard |
+| Plotly | Visual Analytics |
+| Power BI | Additional BI Dashboard |
+| GitHub | Repository & Version Control |
 
 ---
 
-## 🚀 How to Run The Streamlit App Locally
+## 🚀 Run The Streamlit App Locally
 
---- bash
-git clone https://github.com/your-username/Student-Performance-Analytics-Dashboard.git
+```bash
+# Clone the repository
+git clone https://github.com/YOUR-USERNAME/Student-Performance-Analytics-Dashboard.git
+---
+# Navigate into project
 cd Student-Performance-Analytics-Dashboard
+---
+# Install dependencies
 pip install -r requirements.txt
+---
+# Run Streamlit
 cd streamlit_app
 streamlit run app.py
 
-
-##  🌐 Live Web App (Streamlit Cloud)
+```
+---
+## 🌐 Live Web App (Streamlit Cloud)
 
 🚀 Live Dashboard: 👉 https://YOUR_STREAMLIT_LINK_HERE
 
 ---
 
-##  📌 Insights Discovered
+## 📊 Insights Discovered
 
-🔹 Students studying 10+ hours/week show notable grade improvement
-🔹 Attendance below 60% strongly correlates with low scores
-🔹 Kinesthetic learners engage more but are inconsistent performers
-🔹 Visual learners maintain better average scores
-🔹 High stress ≠ high performance (curve collapses after threshold)
-🔹 Motivation drives improvement only when matched with study discipline
----
+🔹 Students studying 10+ hours/week show notable score improvement
+🔹 Attendance below 60% strongly correlates with lower performance
+🔹 Kinesthetic learners display higher engagement but inconsistent outcome
+🔹 Visual learners show more stable performance averages
+🔹 High stress does NOT equate to better scores
+🔹 Motivation improves results only when matched with study consistency
