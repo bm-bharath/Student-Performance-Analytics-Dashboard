@@ -18,7 +18,11 @@ This dashboard enables **educators, institutions, and researchers** to understan
 - Online learning engagement  
 - Motivation & assignment discipline  
 - Stress levels  
-- Learning Style preferences  
+- Learning Style preferences
+
+<p align="center">
+  <img src="assets/overview.png" width="100%">
+</p>
 
 ➡ **Influence Exam Performance & Final Grades**
 
