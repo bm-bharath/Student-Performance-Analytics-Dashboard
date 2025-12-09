@@ -72,13 +72,13 @@ This project moves beyond simple charts — it provides **actionable insights** 
 
 ## 🚀 How to Run The Streamlit App Locally
 
-```bash
+--- bash
 git clone https://github.com/your-username/Student-Performance-Analytics-Dashboard.git
 cd Student-Performance-Analytics-Dashboard
 pip install -r requirements.txt
 cd streamlit_app
 streamlit run app.py
----
+
 
 ##  🌐 Live Web App (Streamlit Cloud)
 
