@@ -2,7 +2,7 @@ import streamlit as st # pyright: ignore[reportMissingImports]
 import pandas as pd # pyright: ignore[reportMissingModuleSource]
 import plotly.express as px # pyright: ignore[reportMissingImports]
 from pathlib import Path
-import plotly.io as pio # pyright: ignore[reportMissingImports]
+
 
 DATA_PATH = Path("../processed/student_performance_clean.csv")
 
