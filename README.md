@@ -100,7 +100,7 @@ streamlit run app.py
 
 ## 🌐 Live Web App (Streamlit Cloud)
 
-🚀 Live Dashboard: 👉 https://YOUR_STREAMLIT_LINK_HERE
+🚀 Live Dashboard: 👉 https://student-performance-analytics-dashboard.streamlit.app/
 
 ---
 
