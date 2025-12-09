@@ -78,5 +78,20 @@ cd Student-Performance-Analytics-Dashboard
 pip install -r requirements.txt
 cd streamlit_app
 streamlit run app.py
+---
 
+##  🌐 Live Web App (Streamlit Cloud)
 
+🚀 Live Dashboard: 👉 https://YOUR_STREAMLIT_LINK_HERE
+
+---
+
+##  📌 Insights Discovered
+
+🔹 Students studying 10+ hours/week show notable grade improvement
+🔹 Attendance below 60% strongly correlates with low scores
+🔹 Kinesthetic learners engage more but are inconsistent performers
+🔹 Visual learners maintain better average scores
+🔹 High stress ≠ high performance (curve collapses after threshold)
+🔹 Motivation drives improvement only when matched with study discipline
+---
