@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import plotly.express as px 
 from pathlib import Path
-
+import plotly.io as pio
 
 DATA_PATH = Path("../processed/student_performance_clean.csv")
 
